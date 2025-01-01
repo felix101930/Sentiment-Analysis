@@ -1,0 +1,54 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual Environment
+venv/
+sent_env/
+.env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (large or sensitive)
+*.csv
+*.json
+*.xlsx
+*.db
+
+# Machine Learning model files
+*.pkl
+*.model
+*.h5
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Logs and databases
+*.log
+*.sqlite3
+
+# Operating System files
+.DS_Store
+Thumbs.db
+
+# Sensitive Information
+.env
+*.env
+secrets.json
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Specific to sentiment analysis project
+data/raw/
+data/processed/
+models/
